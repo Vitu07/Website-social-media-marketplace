@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.paginas a {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.paginas :hover {
+    text-decoration:underline;
+    
+}
+header {
+    color: black;
+    font-size: 200%;
+}
+
+.topico_beneficios {
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 2;
+    
+}
+.depoimento_clientes {
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    
+
+}
+
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cliente_1, .cliente_2, .cliente_3, .cliente_4 {
+    width: 47%;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+.paginas {
+    margin-left: 42%;
+
+
+}
+
+a {
+    color: black;
+    
+}
