@@ -19,6 +19,6 @@ a {color: black;}
     align-items: center;
     text-decoration: none;
 }
-.paginas:hover {
+.paginas :hover {
     text-decoration:underline;
 }
