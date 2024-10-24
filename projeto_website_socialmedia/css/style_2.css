@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {color: black;}
+
+.paginas{
+    display: flex;
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #c4bdbd;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.paginas a {
+    display: inline-block;
+    margin: 0 15px;
+    align-items: center;
+    text-decoration: none;
+}
+.paginas:hover {
+    text-decoration:underline;
+}
