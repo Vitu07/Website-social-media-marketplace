@@ -2,7 +2,7 @@
 
 Bem-vindo ao **SocialMedia Marketplace**! 🚀
 
-Este projeto está sendo desenvolvido por nossa equipe para conectar empresas, influenciadores e freelancers especializados em social media. A plataforma facilita a contratação de profissionais para serviços como gestão de redes sociais, criação de conteúdo, design gráfico e campanhas publicitárias.
+Este projeto está sendo desenvolvido por nossa equipe para conectar empresas, influenciadores a profissionais de social media. A plataforma facilita a contratação de profissionais para serviços como gestão de redes sociais, criação de conteúdo, design gráfico e campanhas publicitárias.
 
 ## 👇 O que você encontra aqui?
 
