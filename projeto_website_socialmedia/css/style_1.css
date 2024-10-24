@@ -2,20 +2,29 @@ body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
 }
-.paginas a {
+
+.paginas{
     display: flex;
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #c4bdbd;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.paginas a {
+    display: inline-block;
+    margin: 0 15px;
     align-items: center;
-    border-bottom: 1px solid gray;
-    justify-content: space-between;
     text-decoration: none;
 }
-.paginas :hover {
+.paginas:hover {
     text-decoration:underline;
     
 }
 header {
     color: black;
     font-size: 200%;
+    border-bottom: 80px solid #000000;
 }
 
 .topico_beneficios {
@@ -50,11 +59,6 @@ header {
 }
 
 
-.paginas {
-    margin-left: 42%;
-
-
-}
 
 a {
     color: black;
