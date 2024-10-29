@@ -3,34 +3,117 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.paginas{
+a {
+    color: black;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+}
+
+.navbar-container {
     display: flex;
-    text-align: center;
-    margin: 20px 0;
-    border-bottom: 1px solid #c4bdbd;
-    padding-bottom: 10px;
-    width: 100%;
-}
-.paginas a {
-    display: inline-block;
-    margin: 0 15px;
+    justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-}
-.paginas :hover {
-    text-decoration:underline;
     
 }
+
+.navbar-logo {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-style: italic;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.navbar-menu a:hover {
+    color: #c4bdbd; 
+}
+
+.carrossel {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carrossel-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carrossel-item {
+    min-width: 100%;
+    display: none;
+}
+
+.carrossel-item.ativo {
+    display: block;
+}
+
+.carrossel img {
+    width: 100%;
+    height: auto;
+}
+
+.carrossel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.carrossel-control.prev {
+    left: 10px;
+}
+
+.carrossel-control.next {
+    right: 10px;
+}
+
+    
 header {
-    color: black;
+    background-color: #333;
+    color: white;
     font-size: 200%;
-    border-bottom: 80px solid #000000;
+    border-bottom: 2px solid #c4bdbd;
+}
+
+.oque_fazemos {
+    line-height: 1.5;
+    margin-bottom: 2em;
+    text-align: justify;
+    font-size: 30px;
+    border-bottom: 1px solid #c4bdbd;
 }
 
 .topico_beneficios {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
     line-height: 2;
+    border-bottom: 1px solid #c4bdbd;
     
 }
 .depoimento_clientes {
@@ -42,6 +125,13 @@ header {
     
 
 }
+
+.conheca_nos {
+    font-size: 25px;
+    line-height: 2;
+}
+
+
 
 .clientes {
     display: flex;
@@ -58,9 +148,67 @@ header {
     padding: 10px;
 }
 
-
-
-a {
-    color: black;
-    
+.rodape {
+    background-color: #333;
+    color: white;
+    padding: 50px 0 20px 0;
+    margin-top: 100px;
 }
+
+.conteudo_rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.secao_rodape {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.secao_rodape h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c4bdbd;
+    padding-bottom: 10px;
+}
+
+.secao_rodape p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.social_links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.social_links a:hover {
+    color: #c4bdbd;
+}
+
+.secao_rodape {
+    margin-bottom: 10px;
+}
+
+.rodape_copy {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.conteudo-rodape {
+        flex-direction: column;
+    }
+
+
+
