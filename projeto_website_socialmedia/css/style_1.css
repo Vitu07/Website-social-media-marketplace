@@ -1,6 +1,8 @@
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #ffffff, #cfcdcd);
+    color: #333;
 }
 
 a {
@@ -21,7 +23,7 @@ a {
 
 .navbar-logo {
     color: white;
-    font-size: 50px;
+    font-size: 3em;
     text-decoration: none;
     font-weight: bolder;
     letter-spacing: 7px;
@@ -52,20 +54,55 @@ a {
     max-width: 100%;
     margin: 20px auto;
     overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+   
 }
 
 .carrossel-slides {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease-in;
 }
 
 .carrossel-item {
     min-width: 100%;
     display: none;
+    padding: 40px;
+    color: #333;
+    border-radius: 15px;
+    height: 400px; /* Altura fixa */
+    margin-bottom: 30px;
 }
 
 .carrossel-item.ativo {
     display: block;
+    
+    
+}
+
+.carrossel-item h2 {
+    font-size: 5.5em; 
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.carrossel-item p {
+    font-size: 2em;
+    line-height: 2em;
+    color: #555;
+}
+
+.carrossel-item a {
+    background-color: #333;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 3.5em;
+}
+
+.carrossel-item a:hover {
+    color: #dfdddd;
 }
 
 .carrossel img {
@@ -81,8 +118,14 @@ a {
     color: white;
     border: none;
     cursor: pointer;
-    padding: 10px;
-    z-index: 1000;
+    padding: 15px 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    
+}
+
+.carrossel-control:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Escurece ao passar o mouse */
 }
 
 .carrossel-control.prev {
@@ -93,13 +136,6 @@ a {
     right: 10px;
 }
 
-    
-header {
-    background-color: #333;
-    color: white;
-    font-size: 200%;
-    border-bottom: 2px solid #c4bdbd;
-}
 
 .oque_fazemos {
     line-height: 1.5;
@@ -107,6 +143,7 @@ header {
     text-align: justify;
     font-size: 30px;
     border-bottom: 1px solid #c4bdbd;
+
 }
 
 .topico_beneficios {
@@ -130,8 +167,6 @@ header {
     font-size: 25px;
     line-height: 2;
 }
-
-
 
 .clientes {
     display: flex;
