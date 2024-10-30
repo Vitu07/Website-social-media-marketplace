@@ -5,20 +5,42 @@ body {
 
 a {color: black;}
 
-.paginas{
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+}
+
+.navbar-container {
     display: flex;
-    text-align: center;
-    margin: 20px 0;
-    border-bottom: 1px solid #c4bdbd;
-    padding-bottom: 10px;
-    width: 100%;
-}
-.paginas a {
-    display: inline-block;
-    margin: 0 15px;
+    justify-content: space-between;
     align-items: center;
-    text-decoration: none;
+    
 }
-.paginas :hover {
-    text-decoration:underline;
+
+.navbar-logo {
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-style: italic;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin: 0 15px;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.navbar-menu a:hover {
+    color: #c4bdbd; 
 }
