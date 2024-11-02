@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #555;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,3 +44,146 @@ a {color: black;}
 .navbar-menu a:hover {
     color: #c4bdbd; 
 }
+
+.nossos_valores {
+    color: white;
+    border-bottom: 1px solid #c4bdbd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.nossos_valores h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 5em;
+}
+
+.valor {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #c4bdbd;
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.valor:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nossa_equipe {
+    color: white;
+
+}
+
+.nossa_equipe h1 {
+    font-size: 7.5em;
+    padding-left: 30px;
+    
+}
+
+.fulano_1, .fulano_3 {
+    border: 2px solid white;
+    margin-bottom: 50px;
+    margin-right: 40%;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.fulano_2, .fulano_4 {
+    border: 2px solid white;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+
+.fulano_1 img {
+    border-radius: 500px;
+    height: 9.5em;
+}
+
+.fulano_2 img {
+    border-radius: 500px;
+    height: 9.5em;
+}
+
+.fulano_3 img {
+    border-radius: 500px;
+    height: 9.5em;
+}
+
+.fulano_4 img {
+    border-radius: 500px;
+    height: 9.5em;    
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    padding: 50px 0 20px 0;
+    margin-top: 100px;
+}
+
+.conteudo_rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.secao_rodape {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.secao_rodape h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c4bdbd;
+    padding-bottom: 10px;
+}
+
+.secao_rodape p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.social_links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.social_links a:hover {
+    color: #c4bdbd;
+}
+
+.secao_rodape {
+    margin-bottom: 10px;
+}
+
+.rodape_copy {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.conteudo-rodape {
+        flex-direction: column;
+    }
