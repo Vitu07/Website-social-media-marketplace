@@ -1,5 +1,4 @@
 body {
-    background-color: white;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to bottom right, #ffffff, #cfcdcd);
     color: #333;
@@ -70,40 +69,34 @@ a {
     padding: 40px;
     color: #333;
     border-radius: 15px;
-    height: 400px; /* Altura fixa */
+    height: 400px;
     margin-bottom: 30px;
 }
 
 .carrossel-item.ativo {
     display: block;
-    
-    
 }
 
 .carrossel-item h2 {
-    font-size: 5.5em; 
+    font-size: 2.5em; 
     margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.1);
     
 }
 
 .carrossel-item p {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 2em;
     color: #555;
 }
 
 .carrossel-item a {
-    background-color: #6B46C1;
+    background-color: #3f6dd1;
     color: #ffffff;
     text-decoration: none;
-    padding: 7px;
+    padding: 10px;
     border-radius: 20px;
-    font-size: 3.5em;
-}
-
-.carrossel-item a:hover {
-    color: #dfdddd;
+    font-size: 2.5em;
 }
 
 .carrossel img {
@@ -126,7 +119,7 @@ a {
 }
 
 .carrossel-control:hover {
-    background-color: rgba(0, 0, 0, 0.9); /* Escurece ao passar o mouse */
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .carrossel-control.prev {
@@ -137,21 +130,22 @@ a {
     right: 10px;
 }
 
-
 .oque_fazemos {
     line-height: 1.5;
     margin-bottom: 2em;
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 1px solid #c4bdbd;
+    padding-left: 30px;
 
 }
 
 .topico_beneficios {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
     line-height: 2;
     border-bottom: 1px solid #c4bdbd;
+    padding-left: 30px;
     
 }
 .depoimento_clientes {
@@ -165,8 +159,9 @@ a {
 }
 
 .conheca_nos {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2;
+    padding-left: 30px;
 }
 
 .clientes {
@@ -245,6 +240,3 @@ a {
 .conteudo-rodape {
         flex-direction: column;
     }
-
-
-
