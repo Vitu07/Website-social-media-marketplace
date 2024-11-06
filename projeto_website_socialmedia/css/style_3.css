@@ -1,6 +1,6 @@
 body {
-    background-color: #333;
-    font-family: 'Roboto', sans-serif;
+    background-color: #6441a5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {color: black;}
@@ -42,16 +42,16 @@ a {color: black;}
 }
 
 .navbar-menu a:hover {
-    color: #c4bdbd; 
+    color: #6441a5; 
 }
 
 .nossos_valores {
     color: white;
-    border-bottom: 1px solid #c4bdbd;
+    border-bottom: 1px solid #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: auto;
     padding-bottom: 100px;
 }
 
@@ -59,7 +59,7 @@ a {color: black;}
     width: 100%;
     text-align: center;
     margin-bottom: 70px;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .valor {
@@ -70,62 +70,59 @@ a {color: black;}
     border: 1px solid #c4bdbd;
     font-size: 1.7em;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    background-color: #333;
 }
 
+
+
 .valor:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 0.4s smooth;
+    border: 3px solid #fff;
+    background-color: #555;
+    
 }
 
 .nossa_equipe {
-    color: white;
-    margin-bottom: 100px;
-
+    color: #fff;    
 }
 
 .nossa_equipe h1 {
+    color: #fff;
     font-size: 7.5em;
     padding-left: 30px;
+    margin-bottom: 100px;
     
 }
 
-.fulano_1, .fulano_3 {
-    border: 2px solid white;
+.fulano {
+    background-color: white;
+    border: 5px solid black;
+    color: black;
     margin-bottom: 50px;
+    border-radius: 50px;
+    padding: 30px;
+
+}
+
+.fulano:nth-child(2), .fulano:nth-child(4){
     margin-right: 40%;
-    padding: 30px;
-    border-radius: 50px;
-
 }
 
-.fulano_2, .fulano_4 {
-    border: 2px solid white;
-    margin-bottom: 50px;
-    margin-left: 40%;
-    padding: 30px;
-    border-radius: 50px;
-    
+.fulano:nth-child(3), .fulano:nth-child(5) {
+    margin-left: 40%; 
 }
 
-.fulano_1 img {
+.fulano img {
     border-radius: 500px;
     height: 9.5em;
+    border: 2px solid #6441a5;
 }
 
-.fulano_2 img {
-    border-radius: 500px;
-    height: 9.5em;
+.fulano strong {
+    color: #6441a5;
 }
 
-.fulano_3 img {
-    border-radius: 500px;
-    height: 9.5em;
-}
-
-.fulano_4 img {
-    border-radius: 500px;
-    height: 9.5em;    
-}
 
 .rodape {
     background-color: #333;
@@ -172,7 +169,7 @@ a {color: black;}
 }
 
 .social_links a:hover {
-    color: #c4bdbd;
+    color: #6441a5;
 }
 
 .secao_rodape {
