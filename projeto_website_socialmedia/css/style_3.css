@@ -80,6 +80,8 @@ a {color: black;}
     transition-duration: 0.4s smooth;
     border: 3px solid #fff;
     background-color: #555;
+    transform: scale(1.05);
+    
     
 }
 
