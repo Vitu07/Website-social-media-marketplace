@@ -1,7 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom right, #ffffff, #cfcdcd);
     color: #333;
+}
+
+body h1 {
+    color: #6441a5;
 }
 
 a {
@@ -45,7 +49,7 @@ a {
 }
 
 .navbar-menu a:hover {
-    color: #c4bdbd; 
+    color: #6441a5; 
 }
 
 .carrossel {
@@ -55,6 +59,8 @@ a {
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    height: 550px;
+
    
 }
 
@@ -66,42 +72,24 @@ a {
 .carrossel-item {
     min-width: 100%;
     display: none;
-    padding: 40px;
+    padding: 0;
     color: #333;
     border-radius: 15px;
-    height: 400px;
     margin-bottom: 30px;
+    overflow: hidden;
+
 }
 
 .carrossel-item.ativo {
     display: block;
 }
 
-.carrossel-item h2 {
-    font-size: 2.5em; 
-    margin-bottom: 20px;
-    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.1);
-    
-}
-
-.carrossel-item p {
-    font-size: 1.5em;
-    line-height: 2em;
-    color: #555;
-}
-
-.carrossel-item a {
-    background-color: #3f6dd1;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 2.5em;
-}
-
 .carrossel img {
-    width: 100%;
-    height: auto;
+    width: 200%;
+    height: 41%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
 }
 
 .carrossel-control {
@@ -148,15 +136,6 @@ a {
     padding-left: 30px;
     
 }
-.depoimento_clientes {
-    background-color: rgb(192, 192, 192);
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 1px;
-    padding: 20px;
-    
-
-}
 
 .conheca_nos {
     font-size: 20px;
@@ -164,24 +143,17 @@ a {
     padding-left: 30px;
 }
 
-.clientes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.cliente_1, .cliente_2, .cliente_3, .cliente_4 {
-    width: 47%;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 1px;
-    border-color: white;
-    margin-bottom: 20px;
+.conheca_nos a {
+    background-color: #6441a5;
+    color: white;
+    text-decoration: none;
     padding: 10px;
+    border-radius: 25px;
 }
 
 .rodape {
     background-color: #333;
-    color: white;
+    color: #fff;
     padding: 50px 0 20px 0;
     margin-top: 100px;
 }
@@ -223,7 +195,7 @@ a {
 }
 
 .social_links a:hover {
-    color: #c4bdbd;
+    color: #6441a5;
 }
 
 .secao_rodape {
