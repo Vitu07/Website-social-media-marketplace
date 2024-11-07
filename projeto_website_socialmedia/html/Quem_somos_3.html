@@ -1,407 +1,111 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/img/background_purple.png);
-    color: #333;
-    position: relative;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem somos?</title>
+    <link rel="stylesheet" href="/css/style_3.css">
+    <link rel="icon" href="/img/icon_site.png" type="icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="Pagina_inicial_1.html" class="navbar-logo">SMM</a>
+            <ul class="navbar-menu">
+                <li><a href="Pagina_inicial_1.html">Página Inicial</a></li>
+                <li><a href="Portifólio_2.html">Portifólio</a></li>
+                <li><a href="Quem_somos_3.html">Quem somos?</a></li>
+            </ul>
+        </div>
+    </nav>
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(247, 247, 247, 0.5);
-    z-index: 1;
-}
+    <div class="nossos_valores">
+        <h1>Nossos Valores</h1>
+        <div class="valor">
+            <h2>Excelência</h2>
+            <p>Acreditamos que a qualidade é o alicerce de tudo o que fazemos. Desde o planejamento estratégico até a entrega final, buscamos sempre entregar o melhor. Nossa equipe é comprometida com altos padrões de qualidade, garantindo que cada detalhe esteja alinhado com os objetivos do cliente e com as melhores práticas do mercado.</p>
+        </div>
 
-.navbar, .carrossel, .oque-fazemos, .topico-beneficios, .conheca-nos, .container-formulario, footer {
-    position: relative;
-    z-index: 2;
-}
+        <div class="valor">
+            <h2>Transparência</h2>
+            <p>A honestidade e a clareza são a base da nossa comunicação. Mantemos nossos clientes informados em todas as etapas do processo, construindo relações baseadas na confiança e no respeito. Valorizamos feedbacks e acreditamos que a troca transparente de ideias fortalece nossos projetos e nossos relacionamentos.</p>
+        </div>
 
-body h1 {
-    color: #6441a5;
-}
+        <div class="valor">
+            <h2>Colaboração</h2>
+            <p>Trabalhamos em equipe, não apenas internamente, mas com cada cliente. Entendemos que o sucesso de um projeto é fruto da união de ideias, e nos dedicamos a criar um ambiente colaborativo onde cada visão é respeitada. Nossa meta é construir em conjunto, sempre colocando as necessidades do cliente em primeiro lugar.</p>
+        </div>
 
-a {
-    color: black;
-}
-
-.navbar {
-    background-color: #333;
-    padding: 15px 20px;
-}
-
-.navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        <div class="valor">
+            <h2>Inovação</h2>
+            <p>O mercado digital está em constante mudança, e nós também. Buscamos sempre as tendências mais atuais e as melhores práticas para manter nossos clientes à frente da concorrência. A criatividade e a inovação são valores que impulsionam nosso trabalho, ajudando-nos a oferecer soluções originais e eficientes.</p>
+        </div>
+    </div>
     
-}
+    <div class="nossa_equipe">
+        <h1>Conheça nossa equipe</h1>
+        <div class="fulano">
+            <img src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png" alt="">
+            <h2>fulano de tal_1</h2>
+            <strong>Profissão/area</strong>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus quidem alias corrupti optio quas, sit quis sint facilis modi necessitatibus reiciendis repudiandae provident quaerat unde fugit veritatis error vitae.</p>
+        </div>
 
-.navbar-logo {
-    color: white;
-    font-size: 3em;
-    text-decoration: none;
-    font-weight: bolder;
-    letter-spacing: 7px;
-    font-style: italic;
-}
+        <div class="fulano">
+            <img src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png" alt="">
+            <h2>fulano de tal_2</h2>
+            <strong>Profissão/area</strong>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus, eligendi consectetur qui sapiente veniam, veritatis ad recusandae ipsum nemo quos laborum, architecto rerum quam impedit eum! Veniam, ea quasi.</p>
+        </div>
 
-.navbar-menu {
-    list-style: none;
-    display: flex;
-}
+        <div class="fulano">
+            <img src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png" alt="">
+            <h2>fulano de tal_3</h2>
+            <strong>Profissão/area</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quis vitae fugiat molestiae maiores corrupti, cumque totam ipsam saepe incidunt, nihil eius soluta impedit id, sed adipisci quas expedita. Sit?</p>
+        </div>
 
-.navbar-menu li {
-    margin: 0 15px;
-}
+        <div class="fulano">
+            <img src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png" alt="">
+            <h2>fulano de tal_4</h2>
+            <strong>Profissão/area</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ex blanditiis dolore at sunt ullam ipsa harum, recusandae repudiandae nulla qui quas quo maiores est, autem veritatis exercitationem illum quibusdam.</p>
+        </div>
 
-.navbar-menu a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease; 
-}
+    </div>
 
-.navbar-menu a:hover {
-    color: #6441a5; 
-}
-
-.carrossel {
-    position: relative;
-    max-width: 100%;
-    margin: 20px auto;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    height: 550px;
-
-   
-}
-
-.carrossel-slides {
-    display: flex;
-    transition: transform 0.5s ease-in;
-}
-
-.carrossel-item {
-    min-width: 100%;
-    display: none;
-    padding: 0;
-    color: #333;
-    border-radius: 15px;
-    margin-bottom: 30px;
-    overflow: hidden;
-
-}
-
-.carrossel-item.ativo {
-    display: block;
-}
-
-.carrossel img {
-    width: 200%;
-    height: 41%;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-}
-
-.carrossel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 15px 20px;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
+    <footer class="rodape">
+        <div class="conteudo_rodape">
+            <div class="secao_rodape">
+                <h4>Sobre Nós</h4>
+                <p>Somos especialistas em transformar sua presença digital através de estratégias eficientes de social media.</p>
+            </div>
+            
+            <div class="secao_rodape">
+                <h4>Contato</h4>
+                <p>Email: SocialMedia-MKT@Smedia.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Av. Principal, 1000 - São Paulo, SP</p>
+            </div>
+            
+            <div class="secao_rodape">
+                <h4>Redes Sociais</h4>
+                <div class="social_links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
     
-}
+        </div>
+        
+        <div class="rodape_copy">
+            <p>Copyright &copy; 2024 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
-.carrossel-control:hover {
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.carrossel-control.prev {
-    left: 10px;
-}
-
-.carrossel-control.next {
-    right: 10px;
-}
-
-.container-slide-identidade-visual {
-    display: flex;
-    height: 61vh;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-    padding-right: 100px;
-   
-}
-.barra-lateral {
-    width: 80px;
-    background-color: #a541a5;
-    border: 2px solid #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0;
-    
-}
-.barra-lateral .icone {
-    width: 40px;
-    height: 40px;
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    background-color: #6441a5;
-}
-.barra-lateral .icone i {
-    font-size: 20px;
-    color: #fff;
-}
-.barra-lateral .seta-para-esquerda {
-    margin-top: auto;
-    background-color: #6441a5;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
-.barra-lateral .seta-para-esquerda i {
-    font-size: 24px;
-    color: #fff;
-}
-.conteudo-identidade-visual {
-    background-color: #6441a5;
-    padding: 40px;
-    width: 60%;
-    text-align: center;
-    border: 2px solid #fff;
-    border-left: none;
-}
-.conteudo-identidade-visual h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #fff;
-}
-.conteudo-identidade-visual p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #fff;
-}
-
-.container-slide-evolucao {
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
-.titulo-efetividade {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-.linha-do-tempo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 40px;
-}
-.item-linha-do-tempo {
-    text-align: center;
-}
-.item-linha-do-tempo .icone {
-    width: 50px;
-    height: 50px;
-    background-color: #6441a5;
-    color: white;
-    border-radius: 50%;
-    padding: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-}
-.item-linha-do-tempo .duracao {
-    background-color: #d3c4f3;
-    color: #555;
-    border-radius: 10px;
-    padding: 5px 10px;
-    margin-top: 10px;
-}
-.item-linha-do-tempo .fase {
-    margin-top: 10px;
-    font-size: 18px;
-}
-.prints-processo {
-    display: flex;
-    justify-content: space-around;
-}
-.print {
-    width: 17%;
-    
-}
-.print img {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-
-.container-slide-engajamento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 60vh;
-    justify-content: center;
-    background-color: #333;
-    margin-right: 200;
-    padding: 40px;
-    color: white;
-    border-radius: 15px;
-   
-}
-
-.titulo-engajamento {
-    font-size: 36px;
-    margin-bottom: 50px;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-}
-
-.dicas-lista {
-    display: flex;
-    justify-content: space-around;
-}
-
-.dica-item {
-    background-color: #6441a5;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 20px;
-    width: 200px;
-    text-align: center;
-}
-
-
-.icone-dica {
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.dica-item h3 {
-    font-size: 20px;
-    margin: 10px 0;
-    color: #fff;
-}
-
-.dica-item p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #fff;
-}
-
-.oque-fazemos {
-    line-height: 1.5;
-    margin-bottom: 2em;
-    text-align: justify;
-    font-size: 20px;
-    border-bottom: 1px solid #c4bdbd;
-    padding-left: 30px;
-
-}
-
-.topico-beneficios {
-    font-size: 20px;
-    margin-bottom: 10px;
-    line-height: 2;
-    border-bottom: 1px solid #c4bdbd;
-    padding-left: 30px;
-    
-}
-
-.conheca-nos {
-    font-size: 20px;
-    line-height: 2;
-    padding-left: 30px;
-}
-
-.conheca-nos a {
-    background-color: #6441a5;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.rodape {
-    background-color: #333;
-    color: #fff;
-    padding: 50px 0 20px 0;
-}
-
-.conteudo-rodape {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 20px;
-}
-
-.secao-rodape {
-    flex: 1;
-    min-width: 250px;
-    margin: 20px;
-}
-
-.secao-rodape h4 {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #c4bdbd;
-    padding-bottom: 10px;
-}
-
-.secao-rodape p {
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.social-links a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #6441a5;
-}
-
-.secao-rodape {
-    margin-bottom: 10px;
-}
-
-.rodape-copy {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #555;
-}
+</body>
+</html>
