@@ -36,8 +36,7 @@ a {
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .navbar-logo {
@@ -76,8 +75,6 @@ a {
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     height: 550px;
-
-   
 }
 
 .carrossel-slides {
@@ -93,7 +90,6 @@ a {
     border-radius: 15px;
     margin-bottom: 30px;
     overflow: hidden;
-
 }
 
 .carrossel-item.ativo {
@@ -119,7 +115,6 @@ a {
     padding: 15px 20px;
     border-radius: 50%;
     transition: background-color 0.3s ease;
-    
 }
 
 .carrossel-control:hover {
@@ -140,9 +135,9 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #333;
-    padding-right: 100px;
-   
+    padding-right: 100px;   
 }
+
 .barra-lateral {
     width: 80px;
     background-color: #a541a5;
@@ -150,9 +145,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 0;
-    
+    padding: 100px 0; 
 }
+
 .barra-lateral .icone {
     width: 40px;
     height: 40px;
@@ -164,10 +159,12 @@ a {
     border-radius: 8px;
     background-color: #6441a5;
 }
+
 .barra-lateral .icone i {
     font-size: 20px;
     color: #fff;
 }
+
 .barra-lateral .seta-para-esquerda {
     margin-top: auto;
     background-color: #6441a5;
@@ -179,10 +176,12 @@ a {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
+
 .barra-lateral .seta-para-esquerda i {
     font-size: 24px;
     color: #fff;
 }
+
 .conteudo-identidade-visual {
     background-color: #6441a5;
     padding: 40px;
@@ -191,12 +190,14 @@ a {
     border: 2px solid #fff;
     border-left: none;
 }
+
 .conteudo-identidade-visual h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #fff;
 }
+
 .conteudo-identidade-visual p {
     font-size: 18px;
     line-height: 1.6;
@@ -208,21 +209,25 @@ a {
     background-color: #333;
     color: white;
 }
+
 .titulo-efetividade {
     font-size: 36px;
     margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
 }
+
 .linha-do-tempo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .item-linha-do-tempo {
     text-align: center;
 }
+
 .item-linha-do-tempo .icone {
     width: 50px;
     height: 50px;
@@ -235,6 +240,7 @@ a {
     justify-content: center;
     font-size: 24px;
 }
+
 .item-linha-do-tempo .duracao {
     background-color: #d3c4f3;
     color: #555;
@@ -242,18 +248,22 @@ a {
     padding: 5px 10px;
     margin-top: 10px;
 }
+
 .item-linha-do-tempo .fase {
     margin-top: 10px;
     font-size: 18px;
 }
+
 .prints-processo {
     display: flex;
     justify-content: space-around;
 }
+
 .print {
     width: 17%;
     
 }
+
 .print img {
     width: 100%;
     border: 1px solid #ccc;
@@ -270,8 +280,7 @@ a {
     margin-right: 200;
     padding: 40px;
     color: white;
-    border-radius: 15px;
-   
+    border-radius: 15px;   
 }
 
 .titulo-engajamento {
@@ -296,7 +305,6 @@ a {
     width: 200px;
     text-align: center;
 }
-
 
 .icone-dica {
     font-size: 40px;
@@ -323,7 +331,6 @@ a {
     font-size: 20px;
     border-bottom: 1px solid #c4bdbd;
     padding-left: 30px;
-
 }
 
 .topico-beneficios {
@@ -331,8 +338,7 @@ a {
     margin-bottom: 10px;
     line-height: 2;
     border-bottom: 1px solid #c4bdbd;
-    padding-left: 30px;
-    
+    padding-left: 30px;    
 }
 
 .conheca-nos {
